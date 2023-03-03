@@ -2123,7 +2123,7 @@
         {
          "columns":6,
          "firstgid":1,
-         "image":"..\/tilesets\/WA_Special_Zones.png",
+         "image":"tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
@@ -2146,7 +2146,7 @@
         {
          "columns":12,
          "firstgid":13,
-         "image":"..\/tilesets\/WA_Decoration.png",
+         "image":"tilesets\/WA_Decoration.png",
          "imageheight":256,
          "imagewidth":384,
          "margin":0,
@@ -2159,7 +2159,7 @@
         {
          "columns":10,
          "firstgid":109,
-         "image":"..\/tilesets\/WA_Miscellaneous.png",
+         "image":"tilesets\/WA_Miscellaneous.png",
          "imageheight":352,
          "imagewidth":320,
          "margin":0,
@@ -2172,7 +2172,7 @@
         {
          "columns":12,
          "firstgid":219,
-         "image":"..\/tilesets\/WA_Other_Furniture.png",
+         "image":"tilesets\/WA_Other_Furniture.png",
          "imageheight":416,
          "imagewidth":384,
          "margin":0,
@@ -2185,7 +2185,7 @@
         {
          "columns":25,
          "firstgid":375,
-         "image":"..\/tilesets\/WA_Room_Builder.png",
+         "image":"tilesets\/WA_Room_Builder.png",
          "imageheight":1280,
          "imagewidth":800,
          "margin":0,
@@ -2288,7 +2288,7 @@
         {
          "columns":13,
          "firstgid":1375,
-         "image":"..\/tilesets\/WA_Seats.png",
+         "image":"tilesets\/WA_Seats.png",
          "imageheight":448,
          "imagewidth":416,
          "margin":0,
@@ -2301,7 +2301,7 @@
         {
          "columns":10,
          "firstgid":1557,
-         "image":"..\/tilesets\/WA_Tables.png",
+         "image":"tilesets\/WA_Tables.png",
          "imageheight":864,
          "imagewidth":320,
          "margin":0,
@@ -2314,7 +2314,7 @@
         {
          "columns":6,
          "firstgid":1827,
-         "image":"..\/tilesets\/WA_Logo_Long.png",
+         "image":"tilesets\/WA_Logo_Long.png",
          "imageheight":32,
          "imagewidth":192,
          "margin":0,
@@ -2327,7 +2327,7 @@
         {
          "columns":25,
          "firstgid":1833,
-         "image":"..\/tilesets\/WA_Exterior.png",
+         "image":"tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
          "margin":0,
@@ -2340,7 +2340,7 @@
         {
          "columns":13,
          "firstgid":2683,
-         "image":"..\/tilesets\/WA_User_Interface.png",
+         "image":"tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
          "margin":0,
@@ -2353,7 +2353,7 @@
         {
          "columns":26,
          "firstgid":2956,
-         "image":"..\/tilesets\/factory_tileset.png",
+         "image":"tilesets\/factory_tileset.png",
          "imageheight":512,
          "imagewidth":832,
          "margin":0,
@@ -2367,7 +2367,7 @@
         {
          "columns":10,
          "firstgid":3372,
-         "image":"..\/tilesets\/TRUSTJULES.png",
+         "image":"tilesets\/TRUSTJULES.png",
          "imageheight":64,
          "imagewidth":320,
          "margin":0,
@@ -2381,7 +2381,7 @@
         {
          "columns":1,
          "firstgid":3392,
-         "image":"..\/tilesets\/Mannequin.png",
+         "image":"tilesets\/Mannequin.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -2395,7 +2395,7 @@
         {
          "columns":5,
          "firstgid":3394,
-         "image":"..\/tilesets\/VetementJules.png",
+         "image":"tilesets\/VetementJules.png",
          "imageheight":32,
          "imagewidth":160,
          "margin":0,
@@ -2409,7 +2409,7 @@
         {
          "columns":75,
          "firstgid":3399,
-         "image":"..\/tilesets\/23_Room_Builder_32x32_edited.png",
+         "image":"tilesets\/23_Room_Builder_32x32_edited.png",
          "imageheight":2144,
          "imagewidth":2400,
          "margin":0,
@@ -2423,7 +2423,7 @@
         {
          "columns":59,
          "firstgid":8424,
-         "image":"..\/tilesets\/2_City_Terrains_32x32.png",
+         "image":"tilesets\/2_City_Terrains_32x32.png",
          "imageheight":2176,
          "imagewidth":1888,
          "margin":0,
@@ -2436,7 +2436,7 @@
         {
          "columns":32,
          "firstgid":12436,
-         "image":"..\/tilesets\/3_City_Props_32x32.png",
+         "image":"tilesets\/3_City_Props_32x32.png",
          "imageheight":2720,
          "imagewidth":1024,
          "margin":0,
@@ -2449,7 +2449,7 @@
         {
          "columns":32,
          "firstgid":15156,
-         "image":"..\/tilesets\/4_Generic_Buildings_32x32.png",
+         "image":"tilesets\/4_Generic_Buildings_32x32.png",
          "imageheight":4032,
          "imagewidth":1024,
          "margin":0,
@@ -2462,7 +2462,7 @@
         {
          "columns":32,
          "firstgid":19188,
-         "image":"..\/tilesets\/6_Garage_Sales_32x32.png",
+         "image":"tilesets\/6_Garage_Sales_32x32.png",
          "imageheight":1216,
          "imagewidth":1024,
          "margin":0,
@@ -2475,7 +2475,7 @@
         {
          "columns":32,
          "firstgid":20404,
-         "image":"..\/tilesets\/7_Villas_32x32.png",
+         "image":"tilesets\/7_Villas_32x32.png",
          "imageheight":1824,
          "imagewidth":1024,
          "margin":0,
@@ -2488,7 +2488,7 @@
         {
          "columns":32,
          "firstgid":22228,
-         "image":"..\/tilesets\/8_Worksite_32x32.png",
+         "image":"tilesets\/8_Worksite_32x32.png",
          "imageheight":640,
          "imagewidth":1024,
          "margin":0,
@@ -2501,7 +2501,7 @@
         {
          "columns":32,
          "firstgid":22868,
-         "image":"..\/tilesets\/9_Shopping_Center_and_Markets_32x32.png",
+         "image":"tilesets\/9_Shopping_Center_and_Markets_32x32.png",
          "imageheight":2176,
          "imagewidth":1024,
          "margin":0,
@@ -2514,7 +2514,7 @@
         {
          "columns":32,
          "firstgid":25044,
-         "image":"..\/tilesets\/12_Hotel_and_Hospital_32x32.png",
+         "image":"tilesets\/12_Hotel_and_Hospital_32x32.png",
          "imageheight":1984,
          "imagewidth":1024,
          "margin":0,
@@ -2527,7 +2527,7 @@
         {
          "columns":32,
          "firstgid":27028,
-         "image":"..\/tilesets\/13_School_32x32.png",
+         "image":"tilesets\/13_School_32x32.png",
          "imageheight":3168,
          "imagewidth":1024,
          "margin":0,
@@ -2540,7 +2540,7 @@
         {
          "columns":32,
          "firstgid":30196,
-         "image":"..\/tilesets\/1_Terrains_and_Fences_32x32.png",
+         "image":"..\/Maps_Jules\/tilesets\/1_Terrains_and_Fences_32x32.png",
          "imageheight":1376,
          "imagewidth":1024,
          "margin":0,
@@ -2553,7 +2553,7 @@
         {
          "columns":32,
          "firstgid":31572,
-         "image":"..\/tilesets\/10_Vehicles_32x32.png",
+         "image":"tilesets\/10_Vehicles_32x32.png",
          "imageheight":3456,
          "imagewidth":1024,
          "margin":0,
@@ -2566,7 +2566,7 @@
         {
          "columns":32,
          "firstgid":35028,
-         "image":"..\/tilesets\/11_Camping_32x32.png",
+         "image":"tilesets\/11_Camping_32x32.png",
          "imageheight":5408,
          "imagewidth":1024,
          "margin":0,
@@ -2579,7 +2579,7 @@
         {
          "columns":2,
          "firstgid":40436,
-         "image":"..\/tilesets\/Etagere.png",
+         "image":"tilesets\/Etagere.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -2593,7 +2593,7 @@
         {
          "columns":8,
          "firstgid":40440,
-         "image":"..\/tilesets\/JULES.png",
+         "image":"tilesets\/JULES.png",
          "imageheight":64,
          "imagewidth":256,
          "margin":0,
@@ -2607,7 +2607,7 @@
         {
          "columns":2,
          "firstgid":40456,
-         "image":"..\/tilesets\/Velo.png",
+         "image":"tilesets\/Velo.png",
          "imageheight":32,
          "imagewidth":64,
          "margin":0,
@@ -2621,7 +2621,7 @@
         {
          "columns":6,
          "firstgid":40458,
-         "image":"..\/tilesets\/Numero.png",
+         "image":"tilesets\/Numero.png",
          "imageheight":32,
          "imagewidth":192,
          "margin":0,
@@ -2635,7 +2635,7 @@
         {
          "columns":2,
          "firstgid":40464,
-         "image":"..\/tilesets\/numerobis.png",
+         "image":"tilesets\/numerobis.png",
          "imageheight":32,
          "imagewidth":64,
          "margin":0,
