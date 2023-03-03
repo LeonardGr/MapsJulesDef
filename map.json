@@ -2540,7 +2540,7 @@
         {
          "columns":32,
          "firstgid":30196,
-         "image":"..\/Maps_Jules\/tilesets\/1_Terrains_and_Fences_32x32.png",
+         "image":"tilesets\/1_Terrains_and_Fences_32x32.png",
          "imageheight":1376,
          "imagewidth":1024,
          "margin":0,
