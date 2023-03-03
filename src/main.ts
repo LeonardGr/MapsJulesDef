@@ -6,7 +6,14 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
-
+export const sleep = async (waitTime: number) => new Promise(resolve => setTimeout(resolve, waitTime));
+const waitASecond = async () => {
+    WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+    await sleep(1000);
+    WA.chat.sendChatMessage('Hello world 2', 'Mr Robot');
+    currentPopup.close();
+    currentPopup = undefined;
+}
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
@@ -15,14 +22,15 @@ WA.onInit().then(() => {
     if (WA.player.tags.includes('ca')) {
         WA.player.setOutlineColor(255, 0, 0)
     }
-
-    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenu dans le forum de recrutement JULES ! Découvrez tout notre environnement et profitez de votre journée !", [])
+    
+    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenu dans notre forum de l'alternance JULES ! \n Tu vas découvrir aujourd’hui, notre quotidien, nos projets et peut être tes futurs collègues :)", [])
     WA.room.area.onLeave("Instruction").subscribe(closePopup)
 
     WA.room.area.onEnter("SiteStyle").subscribe(() => {
         currentPopup = WA.ui.openPopup("StylePopup", "Choisis ton style ! \n Un site va s'ouvrir, trouve ta tenue préférée et fais une capture d'écran !", [])
     })
     WA.room.area.onLeave("SiteStyle").subscribe(closePopup)
+
 
     WA.room.area.onEnter("Magasin").subscribe(() => {
         currentPopup = WA.ui.openPopup("MagasinPopup", "Bonjour !  Tu vas maintenant entrer dans un super magasin Jules ! \n Découvres les différentes étapes du parcours client !", [])
@@ -83,9 +91,10 @@ WA.onInit().then(() => {
 
 function closePopup(){
     if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
+        waitASecond();
+        
     }
 }
+
 
 export {};
