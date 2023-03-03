@@ -8,9 +8,7 @@ console.log('Script started successfully');
 let currentPopup: any = undefined;
 export const sleep = async (waitTime: number) => new Promise(resolve => setTimeout(resolve, waitTime));
 const waitASecond = async () => {
-    WA.chat.sendChatMessage('Hello world', 'Mr Robot');
     await sleep(1000);
-    WA.chat.sendChatMessage('Hello world 2', 'Mr Robot');
     currentPopup.close();
     currentPopup = undefined;
 }
