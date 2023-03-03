@@ -7,11 +7,16 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
-                ...getMapsScripts("./maps"),
+                floormapBtn: "./floormapBtn.html",
+                floormap: "./floormap.html",
+                scheduleBtn: "./scheduleBtn.html",
+                guideBtn: "./guideBtn.html",
+                schedule: "./schedule.html",
+                ...getMapsScripts(),
             },
         },
     },
-    plugins: [...getMapsOptimizers(undefined, "./maps")],
+    plugins: [...getMapsOptimizers()],
     server: {
         host: "localhost",
         headers: {
