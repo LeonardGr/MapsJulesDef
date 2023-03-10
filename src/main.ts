@@ -21,7 +21,7 @@ WA.onInit().then(() => {
         WA.player.setOutlineColor(255, 0, 0)
     }
     
-    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenu dans notre forum de l'alternance JULES ! \n Tu vas découvrir aujourd’hui, notre quotidien, nos projets et peut être tes futurs collègues :)", [])
+    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenue dans notre forum de l'alternance JULES ! \n Tu vas découvrir aujourd’hui, notre quotidien, nos projets et peut être tes futurs collègues :)", [])
     WA.room.area.onLeave("Instruction").subscribe(closePopup)
 
     WA.room.area.onEnter("SiteStyle").subscribe(() => {
