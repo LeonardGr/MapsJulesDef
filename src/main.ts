@@ -7,11 +7,9 @@ console.log('Script started successfully');
 
 let currentPopup: any = undefined;
 export const sleep = async (waitTime: number) => new Promise(resolve => setTimeout(resolve, waitTime));
-const waitASecond = async () => {
+/* const waitASecond = async () => {
     //await sleep(1);
-    currentPopup.close();
-    currentPopup = undefined;
-}
+} */
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
@@ -89,8 +87,9 @@ WA.onInit().then(() => {
 
 function closePopup(){
     if (currentPopup !== undefined) {
-        waitASecond();
-        
+        //waitASecond();
+        currentPopup.close();
+        currentPopup = undefined;   
     }
 }
 
