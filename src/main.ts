@@ -8,7 +8,7 @@ console.log('Script started successfully');
 let currentPopup: any = undefined;
 export const sleep = async (waitTime: number) => new Promise(resolve => setTimeout(resolve, waitTime));
 const waitASecond = async () => {
-    await sleep(1000);
+    //await sleep(1);
     currentPopup.close();
     currentPopup = undefined;
 }
@@ -21,17 +21,17 @@ WA.onInit().then(() => {
         WA.player.setOutlineColor(255, 0, 0)
     }
     
-    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenue dans notre forum de l'alternance JULES ! \n Tu vas découvrir aujourd’hui, notre quotidien, nos projets et peut être tes futurs collègues :)", [])
+    currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenue dans notre forum Alternance by JULES ! \n Tu vas pouvoir découvrir les métiers de la vente, notre quotidien, notre entreprise et peut-être tes futurs collègues.", [])
     WA.room.area.onLeave("Instruction").subscribe(closePopup)
 
     WA.room.area.onEnter("SiteStyle").subscribe(() => {
-        currentPopup = WA.ui.openPopup("StylePopup", "Choisis ton style ! \n Un site va s'ouvrir, trouve ta tenue préférée et fais une capture d'écran !", [])
+        currentPopup = WA.ui.openPopup("StylePopup", "Choisis ton style ! \n  Un nouvel onglet va s’ouvrir, trouve ta tenue la plus stylée et fais-en une capture d’écran pour nous la pitcher en entretien !", [])
     })
     WA.room.area.onLeave("SiteStyle").subscribe(closePopup)
 
 
     WA.room.area.onEnter("Magasin").subscribe(() => {
-        currentPopup = WA.ui.openPopup("MagasinPopup", "Bonjour !  Tu vas maintenant entrer dans un super magasin Jules ! \n Découvres les différentes étapes du parcours client !", [])
+        currentPopup = WA.ui.openPopup("MagasinPopup", "Bonjour !  Tu vas maintenant entrer dans un super magasin Jules ! \n Découvre les différentes étapes du parcours client !", [])
     })
     WA.room.area.onLeave("Magasin").subscribe(closePopup)
 
@@ -41,7 +41,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave("RSE").subscribe(closePopup)
 
     WA.room.area.onEnter("Stylotype").subscribe(() => {
-        currentPopup = WA.ui.openPopup("Stylotype Popup", "Jules c'est 5 styles !  Découvre les tour à tour puis créé ta tenue !", [])
+        currentPopup = WA.ui.openPopup("Stylotype Popup", "Découvre ici les styles à la JULES. \n A la fin de ce parcours, tu pourras créer ta propre tenue à nous pitcher lors de l’entretien. ", [])
     })
     WA.room.area.onLeave("Stylotype").subscribe(closePopup)
 
@@ -56,7 +56,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave("Pre-entretien").subscribe(closePopup)
 
     WA.room.area.onEnter("Entretien").subscribe(() => {
-        currentPopup = WA.ui.openPopup("entretienPopup", "C'est parti ! Bon courage, tout va bien se passer. \n On est tous avec toi !", [])
+        currentPopup = WA.ui.openPopup("entretienPopup", "C’est parti ! \n Bon courage pour ton échange avec la team JULES et surtout reste toi-même !", [])
     })
     WA.room.area.onLeave("Entretien").subscribe(closePopup)
 
