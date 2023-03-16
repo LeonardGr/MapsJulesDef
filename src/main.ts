@@ -15,7 +15,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    if (WA.player.tags.includes('ca')) {
+    if (WA.player.tags.includes('jules')) {
         WA.player.setOutlineColor(255, 0, 0)
     }
     
@@ -29,7 +29,7 @@ WA.onInit().then(() => {
 
 
     WA.room.area.onEnter("Magasin").subscribe(() => {
-        currentPopup = WA.ui.openPopup("MagasinPopup", "Bonjour !  Tu vas maintenant entrer dans un super magasin Jules ! \n Découvre les différentes étapes du parcours client !", [])
+        currentPopup = WA.ui.openPopup("MagasinPopup", "Bonjour !  Tu vas maintenant découvrir un de nos magasins JULES ! \n Découvre les différentes étapes du parcours client !", [])
     })
     WA.room.area.onLeave("Magasin").subscribe(closePopup)
 
@@ -44,7 +44,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave("Stylotype").subscribe(closePopup)
 
     WA.room.area.onEnter("SalleCommune").subscribe(() => {
-        currentPopup = WA.ui.openPopup("CommunePopup", "C'est le moment des questions ! Rencontre des alternants, poses des questions et relaxe toi avant l'entretien !", [])
+        currentPopup = WA.ui.openPopup("CommunePopup", " C’est le moment des questions ! \n Rencontre des alternants de nos magasins et pose leur tes questions !", [])
     })
     WA.room.area.onLeave("SalleCommune").subscribe(closePopup) 
 
