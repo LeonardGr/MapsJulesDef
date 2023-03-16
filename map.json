@@ -1392,15 +1392,14 @@
                     {
                      "fontfamily":".AppleSystemUIFont",
                      "halign":"center",
-                     "pixelsize":12,
                      "text":"Acceuil client",
                      "valign":"center",
                      "wrap":true
                     },
                  "visible":true,
                  "width":57.9087457782365,
-                 "x":971.634414585228,
-                 "y":1033.40540734784
+                 "x":965.817304525506,
+                 "y":1036.12005870904
                 }, 
                 {
                  "class":"",
@@ -1435,8 +1434,8 @@
                     },
                  "visible":true,
                  "width":85.0000533316131,
-                 "x":1033.23550659968,
-                 "y":1163.70281492702
+                 "x":1032.07208458774,
+                 "y":1174.17361303452
                 }, 
                 {
                  "class":"",
