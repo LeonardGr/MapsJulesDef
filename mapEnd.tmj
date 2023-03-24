@@ -418,9 +418,9 @@
                  "name":"Silent",
                  "properties":[
                         {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/miro.com\/app\/live-embed\/uXjVMZoWY20=\/?moveToViewport=-211,-128,465,207&embedId=498994355606"
                         }],
                  "rotation":0,
                  "visible":true,
