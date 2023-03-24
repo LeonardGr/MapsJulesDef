@@ -421,6 +421,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/miro.com\/app\/live-embed\/uXjVMZoWY20=\/?moveToViewport=-211,-128,465,207&embedId=498994355606"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE ou touchez ici pour consulter les informations sur ce parcours"
                         }],
                  "rotation":0,
                  "visible":true,
