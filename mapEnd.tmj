@@ -413,7 +413,7 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":89.8921294446664,
+                 "height":118.989516618063,
                  "id":18,
                  "name":"Silent",
                  "properties":[
@@ -430,11 +430,11 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez ici pour consulter les informations sur ce parcours"
+                         "value":"Donne tes retours sur l'\u00e9venement !"
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":159.808230123851,
+                 "width":172.27853891245,
                  "x":403.515781062725,
                  "y":336.596084698362
                 }],
