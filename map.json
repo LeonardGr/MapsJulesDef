@@ -1904,19 +1904,19 @@
                  "rotation":0,
                  "visible":true,
                  "width":410.589,
-                 "x":1078.13241430357,
-                 "y":221.001990579687
+                 "x":1076.21315130056,
+                 "y":259.387250639824
                 }, 
                 {
                  "class":"area",
-                 "height":102.774949081938,
+                 "height":72.0667410338285,
                  "id":82,
                  "name":"Pre-entretien",
                  "rotation":0,
                  "visible":true,
                  "width":111.97,
-                 "x":1398.19241430357,
-                 "y":294.833541497749
+                 "x":1395.63339696623,
+                 "y":380.560622298721
                 }, 
                 {
                  "class":"",
@@ -1939,6 +1939,40 @@
                  "width":111.97,
                  "x":891.033957618297,
                  "y":282.700763147025
+                }, 
+                {
+                 "class":"area",
+                 "height":148.364549019608,
+                 "id":85,
+                 "name":"SuccessStory",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/82C44dHciu8"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":134.476507625272,
+                 "x":1527.61890002049,
+                 "y":420.692282906596
+                }, 
+                {
+                 "class":"area",
+                 "height":103.92,
+                 "id":86,
+                 "name":"Conseil Entretien",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/hFZmejaqG2Y"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":102.232,
+                 "x":1392.54289675251,
+                 "y":279.080134758448
                 }],
          "offsetx":-4.00748063051028,
          "offsety":5.34330750734705,
@@ -2077,7 +2111,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":85,
+ "nextobjectid":87,
  "orientation":"orthogonal",
  "properties":[
         {
