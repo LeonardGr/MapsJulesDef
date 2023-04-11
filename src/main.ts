@@ -16,7 +16,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     if (WA.player.tags.includes('jules')) {
-        WA.player.setOutlineColor(255, 0, 0)
+        WA.player.setOutlineColor(0, 102, 79)
     }
     
     currentPopup = WA.ui.openPopup("InstructionPopup", "Bienvenue dans notre forum Alternance by JULES ! \n Tu vas pouvoir découvrir les métiers de la vente, notre quotidien, notre entreprise et peut-être tes futurs collègues.", [])
