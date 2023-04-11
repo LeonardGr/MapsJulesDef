@@ -823,11 +823,6 @@
                          "value":"ChillZone_Cusinie"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -1051,11 +1046,6 @@
                          "value":"ChillZone_Salon"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -1081,11 +1071,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"ChillZone_Workspace"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }, 
                         {
                          "name":"zoom_margin",
