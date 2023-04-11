@@ -872,11 +872,6 @@
                          "value":"MeetingRoom_Noir"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -902,11 +897,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"MeetingRoom_Bleu"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }, 
                         {
                          "name":"zoom_margin",
@@ -936,11 +926,6 @@
                          "value":"MeetingRoom_Jaune"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -966,11 +951,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"MeetingRoom_Rouge"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }, 
                         {
                          "name":"zoom_margin",
@@ -1000,11 +980,6 @@
                          "value":"MeetingRoom_Verte"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -1030,11 +1005,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"MeetingRoom_Blanche"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }, 
                         {
                          "name":"zoom_margin",
